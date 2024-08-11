@@ -1,0 +1,338 @@
+.schedule-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.schedule-modal {
+  background-color: rgba(21, 21, 21, 0.8);
+  border-radius: 20px;
+  width: 90%;
+  max-width: 500px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  z-index: 1001;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.schedule-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.schedule-modal-header h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.header-icon {
+  width: 26px;
+  height: 26px;
+  margin-right: 1rem;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.close-button:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.calendar-strip {
+  display: flex;
+  background-color: rgba(32, 32, 32, 0.6);
+  border-radius: 30px;
+  padding: 0.5rem;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  width: 100%;
+}
+
+.calendar-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0 0.25rem;
+  min-width: 50px;
+  transition: all 0.3s ease;
+}
+
+.calendar-day:hover {
+  background-color: rgba(48, 48, 48, 0.8);
+}
+
+.calendar-day.selected {
+  background-color: #0066FF;
+  box-shadow: 0 0 20px rgba(0, 102, 255, 0.5);
+}
+
+.day-name {
+  font-size: 0.7rem;
+  color: #888;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.selected .day-name,
+.selected .day-number {
+  color: #fff;
+}
+
+.day-number {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  z-index: 3;
+}
+
+.nav-button:hover {
+  opacity: 1;
+}
+
+.nav-button img {
+  width: 28px;
+  height: 28px;
+}
+
+.add-task {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  background-color: rgba(32, 32, 32, 0.6);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.add-task input:focus {
+  background-color: rgba(48, 48, 48, 0.8);
+  box-shadow: 0 0 0 2px #0066FF;
+}
+
+.add-task-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #0066FF;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.add-task-button:hover {
+  background-color: #0d6cf7;
+  transform: translateY(-50%) scale(1.05);
+}
+
+.add-task-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.todo-list {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #888 rgba(32, 32, 32, 0.6);
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.todo-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.todo-list::-webkit-scrollbar-track {
+  background: rgba(32, 32, 32, 0.6);
+  border-radius: 3px;
+}
+
+.todo-list::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
+}
+
+.todo-list h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.todo-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: rgba(32, 32, 32, 0.6);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.todo-list li:hover {
+  background-color: rgba(48, 48, 48, 0.8);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.todo-list li.completed {
+  opacity: 0.6;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.task-checkbox {
+  margin-right: 1rem;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #888;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.task-checkbox:checked {
+  background-color: #0066FF;
+  border-color: #0066FF;
+}
+
+.task-checkbox:checked::after {
+  content: '\2714';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+
+.delete-task {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  transition: all 0.3s ease;
+  margin-left: 1rem;
+  opacity: 0;
+}
+
+.todo-list li:hover .delete-task {
+  opacity: 1;
+}
+
+.delete-task img {
+  width: 18px;
+  height: 18px;
+}
+
+.delete-task:hover {
+  color: #ff4d4d;
+  transform: scale(1.1);
+}
+
+.no-tasks {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.audio-player {
+  display: none;
+}

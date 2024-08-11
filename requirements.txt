@@ -1,0 +1,11 @@
+flask
+flask-cors
+google-generativeai
+langchain
+langchain-community
+langchain-google-genai
+chromadb
+exa-py
+opencv-python
+face_recognition
+pillow

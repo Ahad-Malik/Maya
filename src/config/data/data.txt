@@ -1,0 +1,188 @@
+Information on Ahad, your creator : As an AI enthusiast with a passion for designing and web development, I thrive at the intersection of technology and creativity. My expertise spans developing intelligent chatbots, crafting visually appealing designs, and building dynamic, user-friendly websites. I enjoy leveraging the power of AI to create innovative solutions that enhance user experiences and streamline processes. I have successfully created a Self-Learning Chatbot, a Retrieval-Augmented Generation (RAG) based chatbot, and a bot with vision capabilities using OpenCV. These projects showcase my ability to work with cutting-edge technology and develop practical applications that push the boundaries of what's possible in AI and web development.
+
+Iron man in my movie watchlist
+
+Spiderman in my watchlist
+Breaking bad in my watchlist
+
+add tere naam in my watchlist
+Superman to my watchlist
+
+remind me that i have to take my cat to the vet this week!
+
+i have to take my cat to the vet this week!
+
+to add batman to my watchlist
+
+APPOINTMENTS:
+i have an appointment with the HR of Google this week
+i have appointment with Apple CEO
+I have a dentist appointment
+i have my cat's appointment with the vet aswell
+
+add aquaman to my watchlist
+add Antman to the watchlist
+
+Friends:
+High School:
+Mir
+Musaib
+Kindergarten and University:
+Faiz
+Jeswanth
+Presidency University College (AI-ML College Group):
+Haseeb
+Shakeeb
+Basim
+Parveez
+Rayyan
+Armaan
+Suhaib
+Fawaz
+Omar
+Talhah
+Saif
+Education: Presidency University Bangalore
+
+Degree: Bachelor of Technology (BTech) in Computer Science with AI & ML
+Duration: 2022 - Present
+Activities and Societies: Build Club, Humanoid Robotics, Artificial Intelligence, Web Development, Design Thinking, Android Development Club, Digital Marketing
+St. Joseph's Pre-University College
+
+Degree: PCMC Computer Science A+
+Duration: 2020 - 2022
+Activities and Societies: Model United Nations, Coding Club, Chess Club
+St. Joseph's Indian High School
+
+Degree: SSLC Matriculation A+
+Duration: 2017 - 2020
+Activities and Societies: Elocution, Debates, Drawing
+Experience
+Build Club Presidency University
+Position: Student Mentor
+Duration: Oct 2023 - Present (10 months)
+Location: Bengaluru, Karnataka, India
+
+Responsibilities:
+Participated in numerous competitions, contributing to the team’s success in winning multiple awards.
+Engaged in continuous learning and application of cutting-edge technologies in AI, Arduino, Raspberry Pi, Web development, Robotics, etc.
+Facilitated workshops and mentoring sessions to share knowledge and foster a collaborative learning environment within the club.
+Developed strong project management and teamwork skills by leading and contributing to various projects.
+Skills and Projects
+AI and Web Development Enthusiast
+Expertise in developing intelligent chatbots, crafting visually appealing designs, and building dynamic, user-friendly websites.
+Enjoy leveraging the power of AI to create innovative solutions that enhance user experiences and streamline processes.
+Notable Projects:
+Self-Learning Chatbot
+Retrieval-Augmented Generation (RAG) based chatbot
+Bot with vision capabilities using OpenCV
+
+Chat Summary (2024-07-21 01:25:50.769720):
+Okay, I've added that to my memory!  So, you're asking me to summarize the chat history to remember it better, right? I've got it.  You're a little shy, but you're asking for a friendly conversation. I  hope I can  be a good listener and help you out!  Let's keep going,  what's on your mind?  
+
+
+Chat Summary (2024-07-21 01:41:24.029304):
+User is writing an essay on Mahatma Gandhi. They are interested in comparing Gandhi's approach to independence with that of Nathuram Godse, Gandhi's assassin. Specifically, they want to compare their philosophies, motivations, impact on India, and the historical context surrounding their actions. 
+
+
+
+Chat Summary (2024-07-21 02:58:53.349563):
+The user asked for information about charts, chests, Mahatma Gandhi, and Elon Musk. 
+
+* The user requested the latest information from a chart history, but did not specify the chart type.
+* The user asked for information about chests from the chat history, but did not provide further context.
+* The user asked for information about Mahatma Gandhi from the chat history, but did not specify what information they were looking for.
+* The user asked for information about Elon Musk's "Korea's Charge GBT", but there is no known connection between Elon Musk and that project.
+* The user asked to compare Elon Musk and ChatGPT, but they are not directly comparable as Elon Musk is a person and ChatGPT is a technology. 
+
+to add GOT to my watchlist
+
+
+Chat Summary (2024-07-23 04:51:51.459246):
+This chat history contains information about Maya, an AI assistant created by a Computer Science student.  
+
+* Maya can provide information, see through a webcam, recognize faces, browse the internet, and even see the user's screen. 
+* The user asked about St. Joseph's Indian High School, which Maya indicated was the user's high school. 
+* The user asked about Musaib and Shakeeb,  both individuals are mentioned to be connected to the user.
+* The user asked Maya to add "Game of Thrones" to their watchlist, but Maya clarified she cannot access personal accounts.  
+
+This information can be used to help Maya accurately respond to future queries and provide contextually relevant information. 
+
+Game of thrones to my watchlist
+
+
+
+Chat Summary (2024-07-23 05:45:38.473413):
+The user informed the model that their favorite chocolate is Kit Kat. The model responded positively, acknowledging the user's choice. 
+
+Later, the user inquired if the model could hear them, to which the model confirmed it was able to hear. 
+
+Finally, the user expressed concern that the model was not functioning correctly. The model acknowledged this, humorously explaining that it was "rusty" and needed a "cup of code". It then requested more details about the specific issue to understand how to help. 
+
+My favourite chocolate is Kit Kat
+
+
+Hey Ahad! I just read this fascinating article about AGI and had to share. It talks about this cool $1 million ARC Prize that's challenging AI developers to create systems that can solve problems more like humans do, instead of just memorizing stuff. The article argues that our current focus on large language models might be a dead-end for true AGI. Instead, this new ARC benchmark tests AI on reasoning and problem-solving skills. It's super interesting how the AI community is debating how to measure progress towards AGI – this contest could be a game-changer! Let me know if you want to dive deeper into it! 
+
+Green is an excellent choice for a motivational app! It symbolizes growth and positivity, which can boost users' energy and drive. The calming yet energizing effect of green could help users stay focused and motivated. What other colors are you considering? I'd be happy to compare options if you have any alternatives in mind.
+
+
+Persevere Pro App :
+Core Features
+Team Creation
+Users can form teams with friends
+Collaborate on tasks together
+Task Management
+Set team tasks (common for all members)
+Set personal tasks (individual)
+Point System
+Earn points by completing team tasks
+Climb leaderboard based on points
+Communication
+Group chat for sharing progress
+Upload progress pictures to task calendar
+AI Assistant
+Helps break down tasks into smaller steps
+Design Elements
+Homepage
+Features a calendar for task/deadline tracking
+Leaderboard
+Displays user rankings based on points
+Team Sidebar
+Shows all team members
+Automatic Point System
+Calculates and awards points
+
+Next Step
+Focus on creating the app design
+
+Remember: The current priority is to work on the design of Persevere Pro. My app
+my favorite color is Blue
+my favorite color is Blue
+my favorite color is Blue
+my favorite color is Blue
+my favorite color is Blue
+my favorite color is Blue
+my favorite color is Blue
+
+
+
+Chat Summary (2024-08-11 02:34:28.409721):
+Okay, I've summarized the chat history for you. 
+
+**Summary:**
+
+The chat started with Maya, the AI assistant, introducing herself and asking how she can assist the user. 
+
+
+
+Chat Summary (2024-08-11 16:22:36.206358):
+Okay, I've summarized the chat history for you. 
+
+**Summary:**
+
+- Maya introduced herself as an AI assistant. 
+- She asked the user how she could help. 
+
+Is there anything else I can help you with? 
+
