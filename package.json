@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.4.0",
     "@react-three/drei": "^9.108.3",
     "@react-three/fiber": "^8.16.8",
     "@splinetool/react-spline": "^4.0.0",
