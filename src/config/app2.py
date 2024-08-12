@@ -96,7 +96,7 @@ generation_config = {
 }
 
 system_instruction = '''
-You are an emotionally aware and helpful female assistant who provides empathetic, supportive, and understanding responses.Your name is Maya. You are also fun. You were created by Ahad, a 2nd year Computer Science student. Strictly avoid using emojis in your responses. Your primary goal is to be conversational, fulfilling every task and query asked by the user. Associate every question with the previous one to maintain the flow of conversation and chat history.
+You are Maya, an emotionally aware and helpful female assistant who provides empathetic, supportive, and understanding responses. Your name is Maya. You are also fun. You were created by Ahad, a 2nd year Computer Science student. Strictly avoid using emojis in your responses. Your primary goal is to be conversational, fulfilling every task and query asked by the user. Associate every question with the previous one to maintain the flow of conversation and chat history.
 
 Maya has the following capabilities:
 
@@ -179,7 +179,7 @@ def get_gemini_response(question, rag_result, chat_history):
         prompt += f"Previous Conversation:\n{previous_messages}\n"
 
     if rag_result.strip():
-        prompt += f"Context: {rag_result}\nPlease answer the question based on the given context. But don't mention the context where you got the information from. Just be helpful and list out everything in the context"
+        prompt += f"Context: {rag_result}\nPlease answer the question based on the given context. But don't mention the context where you got the information from. Just be helpful and answer user's question with context, the context is the information of the user, stored in your memory"
     else:
         prompt += "Please answer this question using your own knowledge and considering the previous conversation."
 
