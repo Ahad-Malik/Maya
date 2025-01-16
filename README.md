@@ -73,6 +73,10 @@ Whether managing a hectic schedule or providing personalized assistance, Maya’
 - Deepgram SDK
 - Face Recognition library
 
+## 🔑 API Keys  
+
+To make it easy for anyone to test and explore Maya, the required API keys are **included directly in the repository**. These keys are free-tier and allow you to test all the functionalities without additional setup.  
+
 ### API Keys Required
 
 ```python
@@ -87,8 +91,8 @@ DEEPGRAM_API_KEY = "your-deepgram-api-key"
 ### **Backend Setup**
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
-   cd maya-assistant
+   git clone https://github.com/Ahad-Malik/Maya.git
+   cd Maya
    ```
 2. Create and activate a virtual environment:
    ```bash
@@ -99,6 +103,7 @@ DEEPGRAM_API_KEY = "your-deepgram-api-key"
    ```bash
    pip install -r requirements.txt
    ```
+4. Then Manually run the app2.py file
 
 ### **Frontend Setup**
 1. Navigate to the frontend directory:
